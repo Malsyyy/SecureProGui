@@ -1,0 +1,6 @@
+C:\Users\270279190\OneDrive - UP Education\Documents\WindowsForm\WindowsForm\Debug\WindowsForm.vcxproj.AssemblyReference.cache
+C:\Users\270279190\OneDrive - UP Education\Documents\WindowsForm\WindowsForm\Debug\WindowsForm.MyForm.resources
+C:\Users\270279190\OneDrive - UP Education\Documents\WindowsForm\WindowsForm\Debug\WindowsForm.vcxproj.GenerateResource.cache
+D:\C++  Projects\SecureProGui\WindowsForm\Debug\WindowsForm.vcxproj.AssemblyReference.cache
+D:\C++  Projects\SecureProGui\WindowsForm\Debug\WindowsForm.MyForm.resources
+D:\C++  Projects\SecureProGui\WindowsForm\Debug\WindowsForm.vcxproj.GenerateResource.cache
