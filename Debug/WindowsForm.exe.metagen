@@ -23,6 +23,6 @@ Class WindowsForm.decryptMenu: AutoLayout, AnsiClass, Class, Public, BeforeField
 Class WindowsForm.saveMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class WindowsForm.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class WindowsForm.mainMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

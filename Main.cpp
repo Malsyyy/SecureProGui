@@ -1,4 +1,4 @@
-#include "MyForm.h"
+#include "mainMenu.h"
 
 using namespace System;
 using namespace System::Windows::Forms;
@@ -10,9 +10,7 @@ int main(array<String^>^ args)
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
 
-    Application::Run(gcnew MyForm());
-    WindowsForm::decryptMenu form;
-    Application::Run(% form);
+    Application::Run(gcnew mainMenu());
     return 0;
 }
 

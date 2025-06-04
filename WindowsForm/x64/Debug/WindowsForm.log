@@ -1,4 +1,7 @@
-﻿  Main.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  WindowsForm.vcxproj -> D:\C++  Projects\WindowsForm\x64\Debug\WindowsForm.exe
+﻿  Main.cpp
+  .NETFramework,Version=v4.8.AssemblyAttributes.cpp
+  Generating Code...
+  Main.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  WindowsForm.vcxproj -> D:\C++  Projects\SecureProGui\SecureProGui\x64\Debug\WindowsForm.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

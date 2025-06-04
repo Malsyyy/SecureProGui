@@ -4,3 +4,6 @@ C:\Users\270279190\OneDrive - UP Education\Documents\WindowsForm\WindowsForm\Deb
 D:\C++  Projects\SecureProGui\WindowsForm\Debug\WindowsForm.vcxproj.AssemblyReference.cache
 D:\C++  Projects\SecureProGui\WindowsForm\Debug\WindowsForm.MyForm.resources
 D:\C++  Projects\SecureProGui\WindowsForm\Debug\WindowsForm.vcxproj.GenerateResource.cache
+D:\C++  Projects\SecureProGui\SecureProGui\WindowsForm\Debug\WindowsForm.vcxproj.AssemblyReference.cache
+D:\C++  Projects\SecureProGui\SecureProGui\WindowsForm\Debug\WindowsForm.MyForm.resources
+D:\C++  Projects\SecureProGui\SecureProGui\WindowsForm\Debug\WindowsForm.vcxproj.GenerateResource.cache
