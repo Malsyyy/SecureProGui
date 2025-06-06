@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\malac\Documents\SecureProGui\SecureProGui\x64\Debug\SecureProGui.exe</FullPath>
+      <FullPath>C:\github\SecureProGui\x64\Debug\SecureProGui.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
