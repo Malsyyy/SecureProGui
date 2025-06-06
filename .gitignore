@@ -1,0 +1,13 @@
+# Ignore Visual Studio files
+.vs/
+*.vsidx
+*.suo
+*.user
+*.db
+*.VC.db
+*.VC.VC.opendb
+ipch/
+x64/
+Debug/
+Release/
+*.exe

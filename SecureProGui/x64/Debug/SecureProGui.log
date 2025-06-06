@@ -1,0 +1,6 @@
+﻿  createAccount.cpp
+  decryptMenu.cpp
+  encryptMenu.cpp
+  Generating Code...
+  createAccount.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  SecureProGui.vcxproj -> C:\github\SecureProGui\x64\Debug\SecureProGui.exe

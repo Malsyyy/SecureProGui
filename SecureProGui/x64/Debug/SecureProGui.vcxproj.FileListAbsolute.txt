@@ -1,0 +1,14 @@
+C:\Users\malac\Documents\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.vcxproj.AssemblyReference.cache
+C:\Users\malac\Documents\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.encryptMenu.resources
+C:\Users\malac\Documents\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.mainMenu.resources
+C:\Users\malac\Documents\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.vcxproj.GenerateResource.cache
+C:\Users\malac\Documents\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.decryptMenu.resources
+C:\Users\malac\Documents\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.createAccount.resources
+C:\Users\malac\Documents\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.login.resources
+C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.vcxproj.AssemblyReference.cache
+C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.createAccount.resources
+C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.decryptMenu.resources
+C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.encryptMenu.resources
+C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.login.resources
+C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.mainMenu.resources
+C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.vcxproj.GenerateResource.cache
