@@ -12,3 +12,10 @@ C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.encryptMenu.resources
 C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.login.resources
 C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.mainMenu.resources
 C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.vcxproj.GenerateResource.cache
+D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.vcxproj.AssemblyReference.cache
+D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.createAccount.resources
+D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.decryptMenu.resources
+D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.encryptMenu.resources
+D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.login.resources
+D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.mainMenu.resources
+D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.vcxproj.GenerateResource.cache

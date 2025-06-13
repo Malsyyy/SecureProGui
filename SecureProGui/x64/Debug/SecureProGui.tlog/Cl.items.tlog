@@ -1,6 +1,6 @@
-C:\github\SecureProGui\createAccount.cpp;C:\github\SecureProGui\SecureProGui\x64\Debug\createAccount.obj
-C:\github\SecureProGui\decryptMenu.cpp;C:\github\SecureProGui\SecureProGui\x64\Debug\decryptMenu.obj
-C:\github\SecureProGui\encryptMenu.cpp;C:\github\SecureProGui\SecureProGui\x64\Debug\encryptMenu.obj
-C:\github\SecureProGui\login.cpp;C:\github\SecureProGui\SecureProGui\x64\Debug\login.obj
-C:\github\SecureProGui\mainMenu.cpp;C:\github\SecureProGui\SecureProGui\x64\Debug\mainMenu.obj
-C:\github\SecureProGui\SecureProGui\x64\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cpp;C:\github\SecureProGui\SecureProGui\x64\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.obj
+D:\C++  Projects\SecureProGui\SecureProGui\createAccount.cpp;D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\createAccount.obj
+D:\C++  Projects\SecureProGui\SecureProGui\decryptMenu.cpp;D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\decryptMenu.obj
+D:\C++  Projects\SecureProGui\SecureProGui\encryptMenu.cpp;D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\encryptMenu.obj
+D:\C++  Projects\SecureProGui\SecureProGui\login.cpp;D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\login.obj
+D:\C++  Projects\SecureProGui\SecureProGui\mainMenu.cpp;D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\mainMenu.obj
+D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cpp;D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.obj
