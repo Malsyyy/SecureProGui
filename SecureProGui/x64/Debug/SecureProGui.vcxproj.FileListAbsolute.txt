@@ -13,7 +13,10 @@ C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.login.resources
 C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.mainMenu.resources
 C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.vcxproj.GenerateResource.cache
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 M:\SecureProGui\x64\Debug\libcrypto-3-x64.dll
 M:\SecureProGui\SecureProGui\x64\Debug\SecureProGui.vcxproj.AssemblyReference.cache
 M:\SecureProGui\SecureProGui\x64\Debug\SecureProGui.createAccount.resources
@@ -24,6 +27,9 @@ M:\SecureProGui\SecureProGui\x64\Debug\SecureProGui.mainMenu.resources
 M:\SecureProGui\SecureProGui\x64\Debug\SecureProGui.vcxproj.GenerateResource.cache
 M:\SecureProGui\SecureProGui\x64\Debug\SecurePr.3693BBCF.Up2Date
 D:\C++  Projects\SecureProGui\SecureProGui\x64\Debug\libcrypto-3-x64.dll
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.vcxproj.AssemblyReference.cache
 D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.createAccount.resources
@@ -33,6 +39,10 @@ D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.l
 D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.mainMenu.resources
 D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecureProGui.vcxproj.GenerateResource.cache
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecurePr.3693BBCF.Up2Date
+>>>>>>> Stashed changes
 =======
 D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecurePr.3693BBCF.Up2Date
 >>>>>>> Stashed changes

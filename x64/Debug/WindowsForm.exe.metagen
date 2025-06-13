@@ -24,13 +24,19 @@ Class WindowsForm.saveMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldIni
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Class WindowsForm.mainMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
 Class WindowsForm.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
 =======
 Class WindowsForm.mainMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
 >>>>>>> 36e48936a4672d94f707032d315fdf145d89a21f
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

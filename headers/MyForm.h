@@ -8,6 +8,10 @@
 #include "encryptMenu.h"
 #include "decryptMenu.h"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> 36e48936a4672d94f707032d315fdf145d89a21f
+>>>>>>> Stashed changes
 =======
 >>>>>>> 36e48936a4672d94f707032d315fdf145d89a21f
 >>>>>>> Stashed changes
