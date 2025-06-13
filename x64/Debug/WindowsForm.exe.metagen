@@ -23,6 +23,14 @@ Class WindowsForm.decryptMenu: AutoLayout, AnsiClass, Class, Public, BeforeField
 Class WindowsForm.saveMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+<<<<<<< Updated upstream
 Class WindowsForm.mainMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+=======
+<<<<<<< HEAD
+Class WindowsForm.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+=======
+Class WindowsForm.mainMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+>>>>>>> 36e48936a4672d94f707032d315fdf145d89a21f
+>>>>>>> Stashed changes
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

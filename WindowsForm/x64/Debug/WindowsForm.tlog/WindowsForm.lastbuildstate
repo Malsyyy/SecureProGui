@@ -1,2 +1,10 @@
+<<<<<<< HEAD
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.42.34433:TargetPlatformVersion=10.0.22621.0:TargetFrameworkVersion=v4.8::EnableManagedIncrementalBuild=true:
+Debug|x64|C:\Users\270279190\OneDrive - UP Education\Documents\SecureProGui\|
+=======
 PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.43.34808:TargetPlatformVersion=10.0.22621.0:TargetFrameworkVersion=v4.8::EnableManagedIncrementalBuild=true:VcpkgTriplet=x64-windows:
 Debug|x64|D:\C++  Projects\SecureProGui\SecureProGui\|
+<<<<<<< Updated upstream
+=======
+>>>>>>> 36e48936a4672d94f707032d315fdf145d89a21f
+>>>>>>> Stashed changes

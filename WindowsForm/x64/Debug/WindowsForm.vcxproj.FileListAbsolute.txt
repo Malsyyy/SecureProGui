@@ -1,6 +1,20 @@
 D:\C++  Projects\WindowsForm\WindowsForm\x64\Debug\WindowsForm.vcxproj.AssemblyReference.cache
 D:\C++  Projects\WindowsForm\WindowsForm\x64\Debug\WindowsForm.MyForm.resources
 D:\C++  Projects\WindowsForm\WindowsForm\x64\Debug\WindowsForm.vcxproj.GenerateResource.cache
+<<<<<<< Updated upstream
 D:\C++  Projects\SecureProGui\SecureProGui\WindowsForm\x64\Debug\WindowsForm.vcxproj.AssemblyReference.cache
 D:\C++  Projects\SecureProGui\SecureProGui\WindowsForm\x64\Debug\WindowsForm.MyForm.resources
 D:\C++  Projects\SecureProGui\SecureProGui\WindowsForm\x64\Debug\WindowsForm.vcxproj.GenerateResource.cache
+=======
+<<<<<<< HEAD
+D:\C++  Projects\SecureProGui\SecureProGui\x64\Debug\libcrypto-3-x64.dll
+D:\C++  Projects\SecureProGui\SecureProGui\WindowsForm\x64\Debug\WindowsForm.vcxproj.AssemblyReference.cache
+D:\C++  Projects\SecureProGui\SecureProGui\WindowsForm\x64\Debug\WindowsForm.MyForm.resources
+D:\C++  Projects\SecureProGui\SecureProGui\WindowsForm\x64\Debug\WindowsForm.vcxproj.GenerateResource.cache
+D:\C++  Projects\SecureProGui\SecureProGui\WindowsForm\x64\Debug\WindowsF.4ED40981.Up2Date
+=======
+D:\C++  Projects\SecureProGui\SecureProGui\WindowsForm\x64\Debug\WindowsForm.vcxproj.AssemblyReference.cache
+D:\C++  Projects\SecureProGui\SecureProGui\WindowsForm\x64\Debug\WindowsForm.MyForm.resources
+D:\C++  Projects\SecureProGui\SecureProGui\WindowsForm\x64\Debug\WindowsForm.vcxproj.GenerateResource.cache
+>>>>>>> 36e48936a4672d94f707032d315fdf145d89a21f
+>>>>>>> Stashed changes

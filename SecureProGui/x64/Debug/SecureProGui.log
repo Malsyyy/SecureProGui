@@ -1,5 +1,16 @@
+<<<<<<< Updated upstream
 ﻿  login.cpp
   createAccount.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+=======
+﻿  mainMenu.cpp
+  createAccount.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+mainMenu.obj : warning LNK4248: unresolved typeref token (0100002B) for 'evp_cipher_ctx_st'; image may not run
+encryptMenu.obj : warning LNK4248: unresolved typeref token (0100002A) for 'evp_cipher_ctx_st'; image may not run
+mainMenu.obj : warning LNK4248: unresolved typeref token (0100002C) for 'evp_cipher_st'; image may not run
+encryptMenu.obj : warning LNK4248: unresolved typeref token (0100002B) for 'evp_cipher_st'; image may not run
+mainMenu.obj : warning LNK4248: unresolved typeref token (0100003D) for 'engine_st'; image may not run
+encryptMenu.obj : warning LNK4248: unresolved typeref token (0100003C) for 'engine_st'; image may not run
+>>>>>>> Stashed changes
   SecureProGui.vcxproj -> D:\C++  Projects\SecureProGui\SecureProGui\x64\Debug\SecureProGui.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

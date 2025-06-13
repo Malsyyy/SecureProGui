@@ -1,17 +1,28 @@
 #pragma once
 
+#define WIN32_LEAN_AND_MEAN
+#define NOMINMAX
+#define NOUSER
+#define NOGDI
+#define NOCRYPT
+
+using namespace System;
+using namespace System::IO;
+using namespace System::Windows::Forms;
+
+
+#include <openssl/evp.h>
+#include <openssl/rand.h>
+#include <openssl/err.h>
+
+#include <msclr/marshal.h>
+#include <msclr/marshal_cppstd.h>
+
+
 #include "encryptMenu.h"
 #include "decryptMenu.h"
 
-
 namespace WindowsForm {
-
-	using namespace System;
-	using namespace System::ComponentModel;
-	using namespace System::Collections;
-	using namespace System::Windows::Forms;
-	using namespace System::Data;
-	using namespace System::Drawing;
 
 	public ref class mainMenu : public System::Windows::Forms::Form
 	{
@@ -30,123 +41,72 @@ namespace WindowsForm {
 			}
 		}
 
-	private: System::Windows::Forms::Label^ label3;
-	private: System::Windows::Forms::Button^ EncryptBtn;
-	private: System::Windows::Forms::Button^ decryptBtn;
-	private: System::Windows::Forms::Button^ SaveBtn;
-	private: System::Windows::Forms::Button^ LogoutBtn;
-	private: System::Windows::Forms::Button^ exitBtn;
-
-
-
-
-
 	private:
 		System::ComponentModel::Container^ components;
+		System::Windows::Forms::Button^ encryptMenuBtn;
+		System::Windows::Forms::Button^ decryptMenuBtn;
+		System::Windows::Forms::Button^ exitApplicationButton;
 
 #pragma region Windows Form Designer generated code
 		void InitializeComponent(void)
 		{
-			this->label3 = (gcnew System::Windows::Forms::Label());
-			this->EncryptBtn = (gcnew System::Windows::Forms::Button());
-			this->decryptBtn = (gcnew System::Windows::Forms::Button());
-			this->SaveBtn = (gcnew System::Windows::Forms::Button());
-			this->LogoutBtn = (gcnew System::Windows::Forms::Button());
-			this->exitBtn = (gcnew System::Windows::Forms::Button());
+			this->encryptMenuBtn = (gcnew System::Windows::Forms::Button());
+			this->decryptMenuBtn = (gcnew System::Windows::Forms::Button());
+			this->exitApplicationButton = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
+			//
+			// openEncryptMenuButton
+			//
+			this->encryptMenuBtn->Location = System::Drawing::Point(100, 50);
+			this->encryptMenuBtn->Name = L"openEncryptMenuButton";
+			this->encryptMenuBtn->Size = System::Drawing::Size(150, 40);
+			this->encryptMenuBtn->Text = L"Open Encrypt Menu";
+			this->encryptMenuBtn->Click += gcnew System::EventHandler(this, &mainMenu::encryptMenuBtn_Click);
+			//
+			//  Decrypt Menu
+			//
+			this->decryptMenuBtn->Location = System::Drawing::Point(100, 120);
+			this->decryptMenuBtn->Name = L"decryptMenuBtn";
+			this->decryptMenuBtn->Size = System::Drawing::Size(150, 40);
+			this->decryptMenuBtn->Text = L"Open Decrypt Menu";
+			this->decryptMenuBtn->Click += gcnew System::EventHandler(this, &mainMenu::encryptMenuBtn_Click);
 
-			// 
-			// EncryptBtn
-			// 
-			this->EncryptBtn->Location = System::Drawing::Point(172, 58);
-			this->EncryptBtn->Name = L"EncryptBtn";
-			this->EncryptBtn->Size = System::Drawing::Size(164, 49);
-			this->EncryptBtn->TabIndex = 5;
-			this->EncryptBtn->Text = L"Encrypt";
-			this->EncryptBtn->UseVisualStyleBackColor = true;
-			this->EncryptBtn->Click += gcnew System::EventHandler(this, &mainMenu::EncryptBtn_Click);
-			// 
-			// DecryptBtn
-			// 
-			this->decryptBtn->Location = System::Drawing::Point(172, 127);
-			this->decryptBtn->Name = L"DecryptBtn";
-			this->decryptBtn->Size = System::Drawing::Size(164, 49);
-			this->decryptBtn->TabIndex = 6;
-			this->decryptBtn->Text = L"Decrypt";
-			this->decryptBtn->UseVisualStyleBackColor = true;
-			this->decryptBtn->Click += gcnew System::EventHandler(this, &mainMenu::DecryptBtn_Click);
-			// 
-			// SaveBtn
-			// 
-			this->SaveBtn->Location = System::Drawing::Point(172, 202);
-			this->SaveBtn->Name = L"SaveBtn";
-			this->SaveBtn->Size = System::Drawing::Size(164, 49);
-			this->SaveBtn->TabIndex = 7;
-			this->SaveBtn->Text = L"Save File";
-			this->SaveBtn->UseVisualStyleBackColor = true;
-			this->SaveBtn->Click += gcnew System::EventHandler(this, &mainMenu::SaveBtn_Click);
-			// 
-			// LogoutBtn
-			// 
-			this->LogoutBtn->Location = System::Drawing::Point(172, 281);
-			this->LogoutBtn->Name = L"LogoutBtn";
-			this->LogoutBtn->Size = System::Drawing::Size(164, 49);
-			this->LogoutBtn->TabIndex = 8;
-			this->LogoutBtn->Text = L"Logout";
-			this->LogoutBtn->UseVisualStyleBackColor = true;
-			this->LogoutBtn->Click += gcnew System::EventHandler(this, &mainMenu::LogoutBtn_Click);
-			// 
-			// ExitBtn
-			// 
-			this->exitBtn->Location = System::Drawing::Point(172, 352);
-			this->exitBtn->Name = L"ExitBtn";
-			this->exitBtn->Size = System::Drawing::Size(164, 49);
-			this->exitBtn->TabIndex = 9;
-			this->exitBtn->Text = L"Exit";
-			this->exitBtn->UseVisualStyleBackColor = true;
-			this->exitBtn->Click += gcnew System::EventHandler(this, &mainMenu::ExitBtn_Click);
-			// 
-			// MyForm
-			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
-			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(537, 436);
-			this->Controls->Add(this->exitBtn);
-			this->Controls->Add(this->LogoutBtn);
-			this->Controls->Add(this->SaveBtn);
-			this->Controls->Add(this->decryptBtn);
-			this->Controls->Add(this->EncryptBtn);
-			this->Controls->Add(this->label3);
-			this->MinimumSize = System::Drawing::Size(553, 475);
-			this->Name = L"Main Menu";
-			this->Text = L"mainMenu";
+			//
+			// exitApplicationButton
+			//
+			this->exitApplicationButton->Location = System::Drawing::Point(100, 190);
+			this->exitApplicationButton->Name = L"exitApplicationButton";
+			this->exitApplicationButton->Size = System::Drawing::Size(150, 40);
+			this->exitApplicationButton->Text = L"Exit";
+			this->exitApplicationButton->Click += gcnew System::EventHandler(this, &mainMenu::exitApplicationButton_Click);
+			//
+			// mainMenu
+			//
+			this->ClientSize = System::Drawing::Size(347, 336);
+			this->Controls->Add(this->encryptMenuBtn);
+			this->Controls->Add(this->decryptMenuBtn);
+			this->Controls->Add(this->exitApplicationButton);
+			this->Name = L"mainMenu";
+			this->Text = L"Main Menu";
 			this->ResumeLayout(false);
-			this->PerformLayout();
-
 		}
-#pragma endregion	
+#pragma endregion
 
-	private: System::Void EncryptBtn_Click(System::Object^ sender, System::EventArgs^ e) {
-		WindowsForm::encryptMenu^ menu = gcnew WindowsForm::encryptMenu();
-		menu->ShowDialog();
-	}
-	private: System::Void DecryptBtn_Click(System::Object^ sender, System::EventArgs^ e) {
-		WindowsForm::decryptMenu^ menu = gcnew WindowsForm::decryptMenu();
-		menu->ShowDialog();
+	private: System::Void encryptMenuBtn_Click(System::Object^ sender, System::EventArgs^ e) {
+		
+		encryptMenu^ encryptForm = gcnew encryptMenu(); 
+		encryptForm->ShowDialog(); 
 	}
 
-	private: System::Void SaveBtn_Click(System::Object^ sender, System::EventArgs^ e) {
-		MessageBox::Show("Save button pressed");
-	}
-	private: System::Void LogoutBtn_Click(System::Object^ sender, System::EventArgs^ e) {
-		MessageBox::Show("Logout Button Pressed");
-	}
-	private: System::Void ExitBtn_Click(System::Object^ sender, System::EventArgs^ e) {
-		MessageBox::Show("Exit Button Pressed");
+	private: System::Void decryptMenuBtn_Click(System::Object^ sender, System::EventArgs^ e) {
+	
+		decryptMenu^ decryptForm = gcnew decryptMenu();
+		decryptForm->ShowDialog();
 	}
 
-
+	private: System::Void exitApplicationButton_Click(System::Object^ sender, System::EventArgs^ e) {
+		Application::Exit();
+	}
 	};
 }
-
 
