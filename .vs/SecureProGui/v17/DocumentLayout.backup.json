@@ -3,19 +3,16 @@
   "WorkspaceRootPath": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\headers\\decryptMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:headers\\decryptMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{549BF5C9-0726-351B-C39B-604B0ECE8A94}|SecureProGui.vcxproj|D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{549BF5C9-0726-351B-C39B-604B0ECE8A94}|SecureProGui.vcxproj|solutionrelative:login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\headers\\decryptMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:headers\\decryptMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{549BF5C9-0726-351B-C39B-604B0ECE8A94}|SecureProGui.vcxproj|D:\\C\u002B\u002B  PROJECTS\\SECUREPROGUI-MAIN\\SECUREPROGUI\\HEADERS\\ENCRYPTMENU.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{549BF5C9-0726-351B-C39B-604B0ECE8A94}|SecureProGui.vcxproj|solutionrelative:HEADERS\\ENCRYPTMENU.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\headers\\encryptMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:headers\\encryptMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,45 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAO0VAAAAAAAAAAAhwC0WAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-06-15T02:31:26.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "encryptMenu.h",
-              "DocumentMoniker": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\headers\\encryptMenu.h",
-              "RelativeDocumentMoniker": "headers\\encryptMenu.h",
-              "ToolTip": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\headers\\encryptMenu.h",
-              "RelativeToolTip": "headers\\encryptMenu.h",
-              "ViewState": "AgIAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-15T02:31:17.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "decryptMenu.h",
-              "DocumentMoniker": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\headers\\decryptMenu.h",
-              "RelativeDocumentMoniker": "headers\\decryptMenu.h",
-              "ToolTip": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\headers\\decryptMenu.h",
-              "RelativeToolTip": "headers\\decryptMenu.h",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-06T07:03:05.698Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -82,11 +42,33 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "encryptMenu.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\headers\\encryptMenu.h",
+              "RelativeDocumentMoniker": "headers\\encryptMenu.h",
+              "ToolTip": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\headers\\encryptMenu.h",
+              "RelativeToolTip": "headers\\encryptMenu.h",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-15T02:31:17.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "decryptMenu.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\headers\\decryptMenu.h",
+              "RelativeDocumentMoniker": "headers\\decryptMenu.h",
+              "ToolTip": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\headers\\decryptMenu.h",
+              "RelativeToolTip": "headers\\decryptMenu.h",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T07:03:05.698Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
