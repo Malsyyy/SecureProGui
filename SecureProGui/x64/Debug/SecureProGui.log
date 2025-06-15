@@ -1,2 +1,1 @@
-﻿  SecureProGui.vcxproj -> D:\C++  Projects\SecureProGui-Main\SecureProGui\x64\Debug\SecureProGui.exe
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5678,5): error MSB3541: Files has invalid value "<<<<<<< Updated upstream". Illegal characters in path.
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5892,5): error MSB3541: Files has invalid value "<<<<<<< Updated upstream". Illegal characters in path.
