@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\C++  Projects\SecureProGui\SecureProGui\x64\Debug\SecureProGui.exe</FullPath>
+      <FullPath>D:\C++  Projects\SecureProGui-Main\SecureProGui\x64\Debug\SecureProGui.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
