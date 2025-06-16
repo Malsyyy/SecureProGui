@@ -1,5 +1,14 @@
 #pragma once
 
+#include <openssl/evp.h>
+#include <openssl/err.h>
+#include <msclr/marshal_cppstd.h>
+#include <fstream>
+
+using namespace System;
+using namespace System::IO;
+using namespace System::Windows::Forms;
+
 namespace WindowsForm {
 
 	public ref class decryptMenu : public System::Windows::Forms::Form
@@ -66,6 +75,7 @@ namespace WindowsForm {
 			this->decryptBtn->Size = System::Drawing::Size(164, 49);
 			this->decryptBtn->TabIndex = 6;
 			this->decryptBtn->Text = L"Upload File";
+			this->decryptBtn->Click += gcnew System::EventHandler(this, &decryptMenu::decryptBtn_Click);
 			// 
 			// logoutBtn
 			// 
@@ -116,6 +126,77 @@ namespace WindowsForm {
 		if (openFileDialog->ShowDialog() == System::Windows::Forms::DialogResult::OK) {
 			System::String^ filePath = openFileDialog->FileName;
 			fileBox->Text = filePath;
+		}
+	}
+
+	private: System::Void decryptBtn_Click(System::Object^ sender, System::EventArgs^ e) {
+		String^ filePath = fileBox->Text;
+
+		if (String::IsNullOrWhiteSpace(filePath)) {
+			MessageBox::Show("Please select a file to decrypt.");
+			return;
+		}
+
+		try {
+			array<Byte>^ encryptedData = File::ReadAllBytes(filePath);
+			int inputLen = encryptedData->Length;
+
+			pin_ptr<Byte> inputPtr = &encryptedData[0];
+			unsigned char* encrypted = inputPtr;
+
+			// Same key and IV used in encryption
+			unsigned char key[32] = {
+				'0','1','2','3','4','5','6','7',
+				'8','9','0','1','2','3','4','5',
+				'6','7','8','9','0','1','2','3',
+				'4','5','6','7','8','9','0','1'
+			};
+
+			unsigned char iv[16] = {
+				'0','1','2','3','4','5','6','7',
+				'8','9','0','1','2','3','4','5'
+			};
+
+			int maxOutputLen = inputLen;
+			unsigned char* decrypted = new unsigned char[maxOutputLen];
+			int outLen1 = 0, outLen2 = 0;
+
+			EVP_CIPHER_CTX* ctx = EVP_CIPHER_CTX_new();
+			if (!ctx) throw gcnew Exception("Failed to create cipher context.");
+
+			if (1 != EVP_DecryptInit_ex(ctx, EVP_aes_256_cbc(), NULL, key, iv))
+				throw gcnew Exception("EVP_DecryptInit_ex failed");
+
+			if (1 != EVP_DecryptUpdate(ctx, decrypted, &outLen1, encrypted, inputLen))
+				throw gcnew Exception("EVP_DecryptUpdate failed");
+
+			if (1 != EVP_DecryptFinal_ex(ctx, decrypted + outLen1, &outLen2))
+				throw gcnew Exception("EVP_DecryptFinal_ex failed");
+
+			EVP_CIPHER_CTX_free(ctx);
+
+			int totalLen = outLen1 + outLen2;
+			array<Byte>^ decryptedData = gcnew array<Byte>(totalLen);
+			System::Runtime::InteropServices::Marshal::Copy(IntPtr(decrypted), decryptedData, 0, totalLen);
+
+			delete[] decrypted;
+
+			SaveFileDialog^ saveDialog = gcnew SaveFileDialog();
+			saveDialog->Title = "Save Decrypted File As";
+			saveDialog->Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
+			saveDialog->FileName = System::IO::Path::GetFileNameWithoutExtension(filePath) + "_decrypted.txt";
+
+			if (saveDialog->ShowDialog() == System::Windows::Forms::DialogResult::OK) {
+				File::WriteAllBytes(saveDialog->FileName, decryptedData);
+				MessageBox::Show("File decrypted and saved successfully.", "Success", MessageBoxButtons::OK, MessageBoxIcon::Information);
+			}
+			else {
+				MessageBox::Show("Decryption cancelled: no save location chosen.");
+			}
+		}
+		catch (Exception^ ex) {
+			MessageBox::Show("Error during decryption:\n" + ex->Message,
+				"Decryption Error", MessageBoxButtons::OK, MessageBoxIcon::Error);
 		}
 	}
 	};

@@ -19,8 +19,8 @@ using namespace System::Windows::Forms;
 #include <msclr/marshal_cppstd.h>
 
 
-#include "encryptMenu.h"
-#include "decryptMenu.h"
+#include "headers/encryptMenu.h"
+#include "headers/decryptMenu.h"
 
 namespace WindowsForm {
 

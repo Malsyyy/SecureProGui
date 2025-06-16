@@ -1,22 +1,280 @@
 ﻿  Main.cpp
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-<<<<<<< HEAD
-C:\Users\270279190\OneDrive - UP Education\Documents\SecureProGui\headers\encryptMenu.h(14,11): error C1083: Cannot open include file: 'openssl/evp.h': No such file or directory
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\Main.cpp(1,1): error C2059: syntax error: '<<'
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(153,4): error C2065: 'String': undeclared identifier
   (compiling source file 'Main.cpp')
   
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-  .NETFramework,Version=v4.8.AssemblyAttributes.cpp
-  Generating Code...
-  Main.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  WindowsForm.vcxproj -> D:\C++  Projects\SecureProGui\SecureProGui\x64\Debug\WindowsForm.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
->>>>>>> 36e48936a4672d94f707032d315fdf145d89a21f
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(153,12): error C2065: 'filePath': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(154,20): error C2065: 'filePath': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(157,44): error C2065: 'filePath': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(159,11): error C2061: syntax error: identifier 'Exception'
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(159,4): error C2310: catch handlers must specify one type
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(160,58): error C2065: 'ex': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(167,3): error C2065: 'String': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(167,11): error C2065: 'filePath': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(169,7): error C2653: 'String': is not a class or namespace name
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(169,34): error C2065: 'filePath': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(169,15): error C3861: 'IsNullOrWhiteSpace': identifier not found
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(175,10): error C2065: 'Byte': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(175,4): error C2923: 'cli::array': 'Byte' is not a valid template type argument for parameter 'Type'
+  (compiling source file 'Main.cpp')
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(175,10):
+      see declaration of 'Byte'
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(175,4): error C2976: 'cli::array': too few template arguments
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(175,47): error C2065: 'filePath': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(178,12): error C2065: 'Byte': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(178,4): error C2923: 'cli::pin_ptr': 'Byte' is not a valid template type argument for parameter 'Type'
+  (compiling source file 'Main.cpp')
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(178,12):
+      see declaration of 'Byte'
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(178,40): error C3915: 'cli::array' has no default indexed property (class indexer)
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(178,27): error C2512: 'cli::pin_ptr': no appropriate default constructor available
+  (compiling source file 'Main.cpp')
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\predefined C++ types (compiler internal)(17,15):
+      see declaration of 'cli::pin_ptr'
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(179,29): error C2440: 'initializing': cannot convert from 'cli::pin_ptr' to 'unsigned char *'
+  (compiling source file 'Main.cpp')
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(179,29):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(198,26): error C2061: syntax error: identifier 'Exception'
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(201,17): error C2061: syntax error: identifier 'Exception'
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(204,17): error C2061: syntax error: identifier 'Exception'
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(207,17): error C2061: syntax error: identifier 'Exception'
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(214,65): error C2065: 'filePath': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(222,4): error C2065: 'String': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(222,12): error C2065: 'encryptedFilePath': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(225,10): error C2065: 'Byte': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(225,4): error C2923: 'cli::array': 'Byte' is not a valid template type argument for parameter 'Type'
+  (compiling source file 'Main.cpp')
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(225,10):
+      see declaration of 'Byte'
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(225,4): error C2976: 'cli::array': too few template arguments
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(225,45): error C2065: 'Byte': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(225,39): error C2923: 'cli::array': 'Byte' is not a valid template type argument for parameter 'Type'
+  (compiling source file 'Main.cpp')
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(225,45):
+      see declaration of 'Byte'
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(225,39): error C2976: 'cli::array': too few template arguments
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(225,50): error C2662: 'cli::array<Type,dimension>::array(unsigned int)': cannot convert 'this' pointer from 'cli::array' to 'array<Type,dimension> %'
+  (compiling source file 'Main.cpp')
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(225,50):
+      Reason: cannot convert from 'cli::array' to 'array<Type,dimension>'
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(225,50):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\predefined C++ types (compiler internal)(14,1):
+      see declaration of 'cli::array<Type,dimension>::array'
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(225,50):
+      while trying to match the argument list '(int)'
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,52): error C3861: 'IntPtr': identifier not found
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47): error C2665: 'System::Runtime::InteropServices::Marshal::Copy': no overloaded function could convert all the argument types
+  (compiling source file 'Main.cpp')
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,1):
+      could be 'void System::Runtime::InteropServices::Marshal::Copy(System::IntPtr,array<System::IntPtr> ^,int,int)'
+          C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+          'void System::Runtime::InteropServices::Marshal::Copy(System::IntPtr,array<System::IntPtr> ^,int,int)': cannot convert argument 2 from 'cli::array ^' to 'array<System::IntPtr> ^'
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,1):
+      or       'void System::Runtime::InteropServices::Marshal::Copy(System::IntPtr,array<unsigned char> ^,int,int)'
+          C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+          'void System::Runtime::InteropServices::Marshal::Copy(System::IntPtr,array<unsigned char> ^,int,int)': cannot convert argument 2 from 'cli::array ^' to 'array<unsigned char> ^'
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,1):
+      or       'void System::Runtime::InteropServices::Marshal::Copy(System::IntPtr,array<double> ^,int,int)'
+          C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+          'void System::Runtime::InteropServices::Marshal::Copy(System::IntPtr,array<double> ^,int,int)': cannot convert argument 2 from 'cli::array ^' to 'array<double> ^'
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,1):
+      or       'void System::Runtime::InteropServices::Marshal::Copy(System::IntPtr,array<float> ^,int,int)'
+          C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+          'void System::Runtime::InteropServices::Marshal::Copy(System::IntPtr,array<float> ^,int,int)': cannot convert argument 2 from 'cli::array ^' to 'array<float> ^'
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,1):
+      or       'void System::Runtime::InteropServices::Marshal::Copy(System::IntPtr,array<__int64> ^,int,int)'
+          C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+          'void System::Runtime::InteropServices::Marshal::Copy(System::IntPtr,array<__int64> ^,int,int)': cannot convert argument 2 from 'cli::array ^' to 'array<__int64> ^'
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,1):
+      or       'void System::Runtime::InteropServices::Marshal::Copy(System::IntPtr,array<short> ^,int,int)'
+          C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+          'void System::Runtime::InteropServices::Marshal::Copy(System::IntPtr,array<short> ^,int,int)': cannot convert argument 2 from 'cli::array ^' to 'array<short> ^'
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,1):
+      or       'void System::Runtime::InteropServices::Marshal::Copy(System::IntPtr,array<wchar_t> ^,int,int)'
+          C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+          'void System::Runtime::InteropServices::Marshal::Copy(System::IntPtr,array<wchar_t> ^,int,int)': cannot convert argument 2 from 'cli::array ^' to 'array<wchar_t> ^'
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,1):
+      or       'void System::Runtime::InteropServices::Marshal::Copy(System::IntPtr,array<int> ^,int,int)'
+          C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+          'void System::Runtime::InteropServices::Marshal::Copy(System::IntPtr,array<int> ^,int,int)': cannot convert argument 2 from 'cli::array ^' to 'array<int> ^'
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,1):
+      or       'void System::Runtime::InteropServices::Marshal::Copy(array<System::IntPtr> ^,int,System::IntPtr,int)'
+          C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+          'void System::Runtime::InteropServices::Marshal::Copy(array<System::IntPtr> ^,int,System::IntPtr,int)': cannot convert argument 2 from 'cli::array ^' to 'int'
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              No user-defined-conversion operator available, or
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              There is no context in which this conversion is possible
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,1):
+      or       'void System::Runtime::InteropServices::Marshal::Copy(array<unsigned char> ^,int,System::IntPtr,int)'
+          C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+          'void System::Runtime::InteropServices::Marshal::Copy(array<unsigned char> ^,int,System::IntPtr,int)': cannot convert argument 2 from 'cli::array ^' to 'int'
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              No user-defined-conversion operator available, or
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              There is no context in which this conversion is possible
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,1):
+      or       'void System::Runtime::InteropServices::Marshal::Copy(array<double> ^,int,System::IntPtr,int)'
+          C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+          'void System::Runtime::InteropServices::Marshal::Copy(array<double> ^,int,System::IntPtr,int)': cannot convert argument 2 from 'cli::array ^' to 'int'
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              No user-defined-conversion operator available, or
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              There is no context in which this conversion is possible
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,1):
+      or       'void System::Runtime::InteropServices::Marshal::Copy(array<float> ^,int,System::IntPtr,int)'
+          C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+          'void System::Runtime::InteropServices::Marshal::Copy(array<float> ^,int,System::IntPtr,int)': cannot convert argument 2 from 'cli::array ^' to 'int'
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              No user-defined-conversion operator available, or
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              There is no context in which this conversion is possible
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,1):
+      or       'void System::Runtime::InteropServices::Marshal::Copy(array<__int64> ^,int,System::IntPtr,int)'
+          C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+          'void System::Runtime::InteropServices::Marshal::Copy(array<__int64> ^,int,System::IntPtr,int)': cannot convert argument 2 from 'cli::array ^' to 'int'
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              No user-defined-conversion operator available, or
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              There is no context in which this conversion is possible
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,1):
+      or       'void System::Runtime::InteropServices::Marshal::Copy(array<short> ^,int,System::IntPtr,int)'
+          C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+          'void System::Runtime::InteropServices::Marshal::Copy(array<short> ^,int,System::IntPtr,int)': cannot convert argument 2 from 'cli::array ^' to 'int'
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              No user-defined-conversion operator available, or
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              There is no context in which this conversion is possible
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,1):
+      or       'void System::Runtime::InteropServices::Marshal::Copy(array<wchar_t> ^,int,System::IntPtr,int)'
+          C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+          'void System::Runtime::InteropServices::Marshal::Copy(array<wchar_t> ^,int,System::IntPtr,int)': cannot convert argument 2 from 'cli::array ^' to 'int'
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              No user-defined-conversion operator available, or
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              There is no context in which this conversion is possible
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,1):
+      or       'void System::Runtime::InteropServices::Marshal::Copy(array<int> ^,int,System::IntPtr,int)'
+          C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+          'void System::Runtime::InteropServices::Marshal::Copy(array<int> ^,int,System::IntPtr,int)': cannot convert argument 2 from 'cli::array ^' to 'int'
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              No user-defined-conversion operator available, or
+              C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,71):
+              There is no context in which this conversion is possible
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(226,47):
+      while trying to match the argument list '(unknown-type, cli::array ^, int, int)'
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(227,24): error C2065: 'encryptedFilePath': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(233,10): error C2061: syntax error: identifier 'Exception'
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(233,3): error C2310: catch handlers must specify one type
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\headers\encryptMenu.h(234,52): error C2065: 'ex': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\mainMenu.h(146,16): error C2039: 'saveMenu': is not a member of 'WindowsForm'
+  (compiling source file 'Main.cpp')
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\mainMenu.h(7,11):
+      see declaration of 'WindowsForm'
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\mainMenu.h(146,16): error C2065: 'saveMenu': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\mainMenu.h(146,26): error C2065: 'menu': undeclared identifier
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\mainMenu.h(146,52): error C2039: 'saveMenu': is not a member of 'WindowsForm'
+  (compiling source file 'Main.cpp')
+      C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\mainMenu.h(7,11):
+      see declaration of 'WindowsForm'
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\mainMenu.h(146,52): error C2061: syntax error: identifier 'saveMenu'
+  (compiling source file 'Main.cpp')
+  
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\Main.cpp(4,1): error C2059: syntax error: '=='
+C:\Users\malac\Documents\GitHub\SecureProGui\SecureProGui\Main.cpp(8,10): error C1083: Cannot open include file: 'headers/MyForm.h': No such file or directory
