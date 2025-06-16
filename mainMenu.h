@@ -1,7 +1,7 @@
 #pragma once
 
-#include "encryptMenu.h"
-#include "decryptMenu.h"
+#include "headers/encryptMenu.h"
+#include "headers/decryptMenu.h"
 
 
 namespace WindowsForm {
