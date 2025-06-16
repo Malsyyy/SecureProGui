@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{549BF5C9-0726-351B-C39B-604B0ECE8A94}|SecureProGui.vcxproj|D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{549BF5C9-0726-351B-C39B-604B0ECE8A94}|SecureProGui.vcxproj|solutionrelative:mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -55,19 +58,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAABEWAAAAAAAAAAAhwCwWAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-16T07:18:11.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "mainMenu.cpp",
               "DocumentMoniker": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\mainMenu.cpp",
               "RelativeDocumentMoniker": "mainMenu.cpp",
               "ToolTip": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\mainMenu.cpp",
               "RelativeToolTip": "mainMenu.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-16T07:09:12.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "encryptMenu.h",
               "DocumentMoniker": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\headers\\encryptMenu.h",
               "RelativeDocumentMoniker": "headers\\encryptMenu.h",
@@ -80,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "decryptMenu.h",
               "DocumentMoniker": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\headers\\decryptMenu.h",
               "RelativeDocumentMoniker": "headers\\decryptMenu.h",
@@ -93,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "login.cpp",
               "DocumentMoniker": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\login.cpp",
               "RelativeDocumentMoniker": "login.cpp",
