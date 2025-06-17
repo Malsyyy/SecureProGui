@@ -1,6 +1,6 @@
-#include "CLIHandler.h"
-#include "FileEncryptor.h"
-#include "RSAKeyManager.h"
+#include "headers/CLIHandler.h"
+#include "headers/FileEncryptor.h"
+#include "headers/RSAKeyManager.h"
 #include <iostream>
 #include <fstream>
 #include <openssl/rand.h>
