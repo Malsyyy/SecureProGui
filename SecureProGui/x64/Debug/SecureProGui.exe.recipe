@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
+      <FullPath>C:\Users\malac\Documents\SecureProGui\x64\Debug\SecureProGui.exe</FullPath>
+=======
       <FullPath>D:\C++  Projects\SecureProGui-Main\SecureProGui\x64\Debug\SecureProGui.exe</FullPath>
+>>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

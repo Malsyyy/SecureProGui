@@ -12,6 +12,17 @@ C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.encryptMenu.resources
 C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.login.resources
 C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.mainMenu.resources
 C:\github\SecureProGui\SecureProGui\x64\Debug\SecureProGui.vcxproj.GenerateResource.cache
+<<<<<<< HEAD
+C:\Users\malac\Documents\SecureProGui\x64\Debug\libcrypto-3-x64.dll
+C:\Users\malac\Documents\SecureProGui\SecureProGui\x64\Debug\SecureProGui.vcxproj.AssemblyReference.cache
+C:\Users\malac\Documents\SecureProGui\SecureProGui\x64\Debug\SecureProGui.createAccount.resources
+C:\Users\malac\Documents\SecureProGui\SecureProGui\x64\Debug\SecureProGui.decryptMenu.resources
+C:\Users\malac\Documents\SecureProGui\SecureProGui\x64\Debug\SecureProGui.encryptMenu.resources
+C:\Users\malac\Documents\SecureProGui\SecureProGui\x64\Debug\SecureProGui.login.resources
+C:\Users\malac\Documents\SecureProGui\SecureProGui\x64\Debug\SecureProGui.mainMenu.resources
+C:\Users\malac\Documents\SecureProGui\SecureProGui\x64\Debug\SecureProGui.vcxproj.GenerateResource.cache
+C:\Users\malac\Documents\SecureProGui\SecureProGui\x64\Debug\SecurePr.3693BBCF.Up2Date
+=======
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
@@ -46,3 +57,4 @@ D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecurePr.3693B
 =======
 D:\C++  Projects\SecureProGui\SecureProGui\SecureProGui\x64\Debug\SecurePr.3693BBCF.Up2Date
 >>>>>>> Stashed changes
+>>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913

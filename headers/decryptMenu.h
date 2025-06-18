@@ -1,4 +1,13 @@
 #pragma once
+using namespace System;
+using namespace System::IO;
+using namespace System::Windows::Forms;
+using namespace System::Runtime::InteropServices;
+
+#include <openssl/evp.h>
+#include <openssl/rand.h>
+#include <openssl/err.h>
+#pragma comment(lib, "libcrypto.lib")
 
 #include <openssl/evp.h>
 #include <openssl/err.h>
@@ -29,7 +38,14 @@ namespace WindowsForm {
 		}
 
 	private:
+		Button^ browseBtn;
+		Button^ decryptBtn;
+		Button^ logoutBtn;
+		Button^ exitBtn;
+		RichTextBox^ fileBox;
 		System::ComponentModel::Container^ components;
+<<<<<<< HEAD
+=======
 		System::Windows::Forms::Label^ welcomeMsg;
 		System::Windows::Forms::Button^ browseBtn;
 		System::Windows::Forms::Button^ decryptBtn;
@@ -37,10 +53,50 @@ namespace WindowsForm {
 		System::Windows::Forms::Button^ exitBtn;
 		System::Windows::Forms::RichTextBox^ fileBox;
 		System::Windows::Forms::OpenFileDialog^ openFileDialog;
+>>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913
 
 #pragma region Windows Form Designer generated code
 		void InitializeComponent(void)
 		{
+<<<<<<< HEAD
+			this->browseBtn = gcnew Button();
+			this->decryptBtn = gcnew Button();
+			this->logoutBtn = gcnew Button();
+			this->exitBtn = gcnew Button();
+			this->fileBox = gcnew RichTextBox();
+			this->SuspendLayout();
+
+			// browseBtn
+			this->browseBtn->Location = System::Drawing::Point(30, 30);
+			this->browseBtn->Size = System::Drawing::Size(75, 23);
+			this->browseBtn->Text = L"Browse";
+			this->browseBtn->Click += gcnew EventHandler(this, &decryptMenu::browseBtn_Click);
+
+			// decryptBtn
+			this->decryptBtn->Location = System::Drawing::Point(30, 70);
+			this->decryptBtn->Size = System::Drawing::Size(75, 23);
+			this->decryptBtn->Text = L"Decrypt";
+			this->decryptBtn->Click += gcnew EventHandler(this, &decryptMenu::decryptBtn_Click);
+
+			// logoutBtn
+			this->logoutBtn->Location = System::Drawing::Point(30, 110);
+			this->logoutBtn->Size = System::Drawing::Size(75, 23);
+			this->logoutBtn->Text = L"Logout";
+
+			// exitBtn
+			this->exitBtn->Location = System::Drawing::Point(30, 150);
+			this->exitBtn->Size = System::Drawing::Size(75, 23);
+			this->exitBtn->Text = L"Exit";
+			this->exitBtn->Click += gcnew EventHandler(this, &decryptMenu::exitBtn_Click);
+
+			// fileBox
+			this->fileBox->Location = System::Drawing::Point(120, 30);
+			this->fileBox->Size = System::Drawing::Size(300, 23);
+			this->fileBox->ReadOnly = true;
+
+			// decryptMenu Form
+			this->ClientSize = System::Drawing::Size(450, 220);
+=======
 			this->welcomeMsg = (gcnew System::Windows::Forms::Label());
 			this->browseBtn = (gcnew System::Windows::Forms::Button());
 			this->decryptBtn = (gcnew System::Windows::Forms::Button());
@@ -109,23 +165,34 @@ namespace WindowsForm {
 			this->ClientSize = System::Drawing::Size(807, 589);
 			this->Controls->Add(this->fileBox);
 			this->Controls->Add(this->welcomeMsg);
+>>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913
 			this->Controls->Add(this->browseBtn);
 			this->Controls->Add(this->decryptBtn);
 			this->Controls->Add(this->logoutBtn);
 			this->Controls->Add(this->exitBtn);
+<<<<<<< HEAD
+			this->Controls->Add(this->fileBox);
+			this->Text = L"Decrypt File";
+=======
 			this->Name = L"decryptMenu";
 			this->Text = L"Decrypt Menu";
+>>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913
 			this->ResumeLayout(false);
 		}
 #pragma endregion
 
 	private: System::Void browseBtn_Click(System::Object^ sender, System::EventArgs^ e) {
-		openFileDialog->Title = "Select a file to upload";
-		openFileDialog->Filter = "All Files (*.*)|*.*";
+		OpenFileDialog^ openFileDialog = gcnew OpenFileDialog();
+		openFileDialog->Title = "Select Encrypted File";
+		openFileDialog->Filter = "Encrypted Files (*.enc)|*.enc|All Files (*.*)|*.*";
 
 		if (openFileDialog->ShowDialog() == System::Windows::Forms::DialogResult::OK) {
+<<<<<<< HEAD
+			fileBox->Text = openFileDialog->FileName;
+=======
 			System::String^ filePath = openFileDialog->FileName;
 			fileBox->Text = filePath;
+>>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913
 		}
 	}
 
@@ -138,6 +205,16 @@ namespace WindowsForm {
 		}
 
 		try {
+<<<<<<< HEAD
+			// Read encrypted file
+			array<Byte>^ encryptedData = File::ReadAllBytes(filePath);
+			int encLen = encryptedData->Length;
+
+			pin_ptr<Byte> encPtr = &encryptedData[0];
+			unsigned char* encBytes = encPtr;
+
+			// Same static key/IV used in encryption
+=======
 			array<Byte>^ encryptedData = File::ReadAllBytes(filePath);
 			int inputLen = encryptedData->Length;
 
@@ -145,6 +222,7 @@ namespace WindowsForm {
 			unsigned char* encrypted = inputPtr;
 
 			// Same key and IV used in encryption
+>>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913
 			unsigned char key[32] = {
 				'0','1','2','3','4','5','6','7',
 				'8','9','0','1','2','3','4','5',
@@ -157,7 +235,11 @@ namespace WindowsForm {
 				'8','9','0','1','2','3','4','5'
 			};
 
+<<<<<<< HEAD
+			int maxOutputLen = encLen; // decrypted output will be <= encrypted
+=======
 			int maxOutputLen = inputLen;
+>>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913
 			unsigned char* decrypted = new unsigned char[maxOutputLen];
 			int outLen1 = 0, outLen2 = 0;
 
@@ -167,7 +249,11 @@ namespace WindowsForm {
 			if (1 != EVP_DecryptInit_ex(ctx, EVP_aes_256_cbc(), NULL, key, iv))
 				throw gcnew Exception("EVP_DecryptInit_ex failed");
 
+<<<<<<< HEAD
+			if (1 != EVP_DecryptUpdate(ctx, decrypted, &outLen1, encBytes, encLen))
+=======
 			if (1 != EVP_DecryptUpdate(ctx, decrypted, &outLen1, encrypted, inputLen))
+>>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913
 				throw gcnew Exception("EVP_DecryptUpdate failed");
 
 			if (1 != EVP_DecryptFinal_ex(ctx, decrypted + outLen1, &outLen2))
@@ -175,6 +261,36 @@ namespace WindowsForm {
 
 			EVP_CIPHER_CTX_free(ctx);
 
+<<<<<<< HEAD
+			// Save decrypted file
+			SaveFileDialog^ saveDialog = gcnew SaveFileDialog();
+			saveDialog->Title = "Save Decrypted File";
+			saveDialog->Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
+			saveDialog->FileName = Path::GetFileNameWithoutExtension(filePath) + "_decrypted.txt";
+
+			if (saveDialog->ShowDialog() != System::Windows::Forms::DialogResult::OK) {
+				delete[] decrypted;
+				MessageBox::Show("Save cancelled.");
+				return;
+			}
+
+			String^ outputPath = saveDialog->FileName;
+			array<Byte>^ outputData = gcnew array<Byte>(outLen1 + outLen2);
+			Marshal::Copy(IntPtr(decrypted), outputData, 0, outLen1 + outLen2);
+			File::WriteAllBytes(outputPath, outputData);
+			delete[] decrypted;
+
+			MessageBox::Show("Decryption successful! File saved to:\n" + outputPath);
+		}
+		catch (Exception^ ex) {
+			MessageBox::Show("Decryption error: " + ex->Message, "Error", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		}
+	}
+
+	private: System::Void exitBtn_Click(System::Object^ sender, System::EventArgs^ e) {
+		Application::Exit();
+	}
+=======
 			int totalLen = outLen1 + outLen2;
 			array<Byte>^ decryptedData = gcnew array<Byte>(totalLen);
 			System::Runtime::InteropServices::Marshal::Copy(IntPtr(decrypted), decryptedData, 0, totalLen);
@@ -199,5 +315,6 @@ namespace WindowsForm {
 				"Decryption Error", MessageBoxButtons::OK, MessageBoxIcon::Error);
 		}
 	}
+>>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913
 	};
 }
