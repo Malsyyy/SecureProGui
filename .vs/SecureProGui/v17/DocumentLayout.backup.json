@@ -1,6 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
+
   "WorkspaceRootPath": "C:\\Users\\malac\\Documents\\SecureProGui\\",
   "Documents": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{549BF5C9-0726-351B-C39B-604B0ECE8A94}|SecureProGui.vcxproj|C:\\Users\\malac\\Documents\\SecureProGui\\login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-=======
+
   "WorkspaceRootPath": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\",
   "Documents": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{549BF5C9-0726-351B-C39B-604B0ECE8A94}|SecureProGui.vcxproj|D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
->>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913
+
       "RelativeMoniker": "D:0:0:{549BF5C9-0726-351B-C39B-604B0ECE8A94}|SecureProGui.vcxproj|solutionrelative:login.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -52,11 +52,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
+
           "SelectedChildIndex": 5,
-=======
+
           "SelectedChildIndex": 6,
->>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913
+
           "Children": [
             {
               "$type": "Bookmark",
@@ -68,13 +68,13 @@
             },
             {
               "$type": "Bookmark",
-<<<<<<< HEAD
-=======
+
+
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
->>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913
+
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
@@ -84,8 +84,8 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-<<<<<<< HEAD
-=======
+
+
             },
             {
               "$type": "Document",
@@ -97,12 +97,12 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2025-06-16T07:18:11.112Z",
               "EditorCaption": ""
->>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913
+
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-<<<<<<< HEAD
+
               "Title": "encryptMenu.h",
               "DocumentMoniker": "C:\\Users\\malac\\Documents\\SecureProGui\\headers\\encryptMenu.h",
               "RelativeDocumentMoniker": "headers\\encryptMenu.h",
@@ -111,7 +111,7 @@
               "ViewState": "AgIAAK8AAAAAAAAAAAAAAMkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-17T06:45:36.679Z",
-=======
+
               "Title": "mainMenu.cpp",
               "DocumentMoniker": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\mainMenu.cpp",
               "RelativeDocumentMoniker": "mainMenu.cpp",
@@ -133,13 +133,13 @@
               "ViewState": "AgIAAL0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-15T02:31:17.337Z",
->>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913
+
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-<<<<<<< HEAD
+
               "Title": "mainMenu.h",
               "DocumentMoniker": "C:\\Users\\malac\\Documents\\SecureProGui\\mainMenu.h",
               "RelativeDocumentMoniker": "mainMenu.h",
@@ -148,7 +148,7 @@
               "ViewState": "AgIAADEAAAAAAAAAAIAwwHcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-17T06:41:55.495Z",
-=======
+
               "Title": "decryptMenu.h",
               "DocumentMoniker": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\headers\\decryptMenu.h",
               "RelativeDocumentMoniker": "headers\\decryptMenu.h",
@@ -157,7 +157,7 @@
               "ViewState": "AgIAAF0AAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-06T07:03:05.698Z",
->>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913
+
               "EditorCaption": ""
             },
             {
@@ -212,7 +212,7 @@
           "Children": [
             {
               "$type": "Document",
-<<<<<<< HEAD
+
               "DocumentIndex": 0,
               "Title": "decryptMenu.h",
               "DocumentMoniker": "C:\\Users\\malac\\Documents\\SecureProGui\\headers\\decryptMenu.h",
@@ -222,7 +222,7 @@
               "ViewState": "AgIAAGYAAAAAAAAAAAAuwK8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-17T06:45:27.585Z",
-=======
+
               "DocumentIndex": 4,
               "Title": "login.cpp",
               "DocumentMoniker": "D:\\C\u002B\u002B  Projects\\SecureProGui-Main\\SecureProGui\\login.cpp",
@@ -232,7 +232,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-06T07:11:51.615Z",
->>>>>>> d2642d55503aa954f0f67c962a9c7141f8d94913
+
               "EditorCaption": ""
             }
           ]
